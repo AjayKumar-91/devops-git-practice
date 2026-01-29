@@ -7,14 +7,19 @@ Environment Basics :
 Filesystem sanity :
 
 
-<img width="836" height="99" alt="image" src="https://github.com/user-attachments/assets/4edab5bd-e8c3-42fe-9c56-a8dfdbd40760" />
+
 
 
 CPU / Memory :
 Create temp folder and file
 
 
-<img width="622" height="92" alt="image" src="https://github.com/user-attachments/assets/76e9dfe6-1927-4fd1-a4d9-59dcf064fce3" />
+<img width="1600" height="474" alt="image" src="https://github.com/user-attachments/assets/abe4a4ef-a441-4237-9f1e-3e775f0a3ff1" />
+
+
+<img width="1600" height="844" alt="image" src="https://github.com/user-attachments/assets/363028a6-3b37-48d2-bbca-f9c9bd28504f" />
+
+
 
 
 <img width="804" height="372" alt="image" src="https://github.com/user-attachments/assets/665b4f7c-0e17-43d8-b191-923b516522e9" />
