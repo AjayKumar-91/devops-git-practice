@@ -32,7 +32,13 @@ This structure ensures consistency across different Linux distributions.
 
 
 
+
+
 Real-World Scenarios and Step-by-Step Solutions
+
+
+
+
 
 Scenario 1: Troubleshooting a Full Disk
 
@@ -53,6 +59,8 @@ Command: truncate -s 0 /var/log/syslog (Reduces file to 0 bytes without deleting
 
 
 
+
+
 Scenario 2: Configuring a New User
 
 Problem: A new user named jdoe needs to be added to the system.
@@ -66,6 +74,8 @@ Verify home directory: Check that the user has a directory in /home.
 Command: ls /home/jdoe
 
 Set password: Use passwd to secure the new account. 
+
+
 
 
 
@@ -83,15 +93,26 @@ Apply changes: Apply settings with sudo netplan apply.
 
 
 
+
+
 Scenario 4: Mounting a New USB Drive 
 
 Problem: A USB drive is plugged in, but you cannot access the files. 
+
 Identify device: Locate the device name in /dev.
+
 Command: lsblk (e.g., /dev/sdb1).
+
 Create Mount Point: Create a directory in /mnt or /media.
+
 Command: sudo mkdir /mnt/usb
+
 Mount: Mount the device to the directory.
+
 Command: sudo mount /dev/sdb1 /mnt/usb 
+
+
+
 
 
 Scenario 5: Installing Third-Party Software
@@ -103,6 +124,9 @@ Move to Location: Place the application in /opt.
 Command: sudo mv software_folder /opt/
 
 Add to Path: Add /opt/software_folder/bin to your $PATH to run the command from anywhere. 
+
+
+
 
 
 Scenario 6: Reviewing Kernel Errors
