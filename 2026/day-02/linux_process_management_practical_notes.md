@@ -33,6 +33,19 @@
 
 ## 5 Process Commands I Use Daily
 
+**pwd – Show current directory**
+pwd
+
+
+**ls – List files & directories**
+ls -l
+ls -la
+
+**cd – Change directory**
+cd /var/log
+cd ~
+
+
 - **ps** – snapshot of processes
   ```bash
   ps -ef
